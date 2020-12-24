@@ -61,9 +61,8 @@ module.exports = [
         module: {
             rules: rules
         },
-        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls', 'base/js/dialog'],
-        plugins: plugins,
-        mode: 'production'
+        externals: ['@jupyter-widgets/base', '@jupyter-widgets/controls'],
+        plugins: plugins
     },
     {// Embeddable qgrid bundle
      //
